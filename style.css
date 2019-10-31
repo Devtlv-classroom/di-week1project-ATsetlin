@@ -1,0 +1,49 @@
+html, h1, h2, h3, h4, h5, h6, a {
+	font-family: 'Roboto Slab', serif;
+}
+
+header {
+ background-image: url(https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80);
+ background-repeat: no-repeat !important; 
+ background-attachment: fixed; 
+ background-size: cover; 
+ background-position: center !important;
+ /*background-color: black;
+ opacity: 0.25;*/
+ height: 100vh;
+
+}
+
+nav {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.my-navbar-text {
+	margin: 0;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h3 {
+	display: flex;
+	justify-content: center;
+}
+
+.me {
+	width: 200px; 
+	height: 200px; 
+	border-radius: 50%;
+}
+
+.vertical {
+	border-right: 5px solid black;
+}
+
+.bio {
+	text-align: center;
+}
